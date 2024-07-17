@@ -16,7 +16,13 @@ First, clone the repository to your local machine:
 ```bash
 git clone https://github.com/zeeshanalico/UC-task5-fullStack.git
 ```
-configure the databast
+configure/restore the database
+Install the dependencies
+```bash
+cd DB
+create -U username -c "dbname"
+psql -U username dbname < backup.sql
+```
 
 Install the dependencies
 ```bash
@@ -27,8 +33,6 @@ add a config.env file in server directory with given properties like
 ```bash
 
 PORT=3000
-
-# database information 
 USER=username
 DATABASE=dbname
 HOST=localhost etc

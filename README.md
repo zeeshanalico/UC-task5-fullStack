@@ -17,7 +17,6 @@ First, clone the repository to your local machine:
 git clone https://github.com/zeeshanalico/UC-task5-fullStack.git
 ```
 configure/restore the database
-Install the dependencies
 ```bash
 cd DB
 create -U username -c "dbname"

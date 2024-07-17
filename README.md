@@ -15,7 +15,7 @@ it also has a database directory with db.sql run execute that file in postgres d
 First, clone the repository to your local machine:
 ```bash
 git clone https://github.com/zeeshanalico/UC-task5-fullStack.git
-``
+```
 configure the databast
 
 Install the dependencies
@@ -23,7 +23,7 @@ Install the dependencies
 cd server
 npm install
 ```
-add a config.env file in server directory to add with given properties like 
+add a config.env file in server directory with given properties like 
 ```bash
 
 PORT=3000

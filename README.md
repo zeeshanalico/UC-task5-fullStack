@@ -11,10 +11,11 @@
 First, clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
-
+git clone https://github.com/zeeshanalico/UC-task5-fullStack.git
+```
+```bash
 cd server
 npm install
-server> npm run start
+npm run start
+```
 
